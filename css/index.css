@@ -80,6 +80,19 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
+.header .fa-circle-plus {
+	position: absolute;
+	top: 12.5px;
+	right: 5%;
+	color: rgba(175, 47, 47, 0.5);
+	font-size: 2.6rem;
+	cursor: pointer;
+}
+
+.fa-circle-plus:hover {
+	opacity: 0.9;
+}
+
 .new-todo,
 .edit {
 	position: relative;
@@ -100,7 +113,7 @@ body {
 }
 
 .new-todo {
-	padding: 16px 16px 16px 60px;
+	padding: 16px 75px 16px 60px;
 	border: none;
 	background: rgba(0, 0, 0, 0.003);
 	box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
