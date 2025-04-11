@@ -82,10 +82,10 @@ body {
 
 .header .fa-circle-plus {
 	position: absolute;
-	top: 13px;
+	top: 15px;
 	right: 5%;
 	color: rgba(175, 47, 47, 0.5);
-	font-size: 2.6rem;
+	font-size: 2.3rem;
 	cursor: pointer;
 	-webkit-tap-highlight-color: transparent;
 }
